@@ -1,0 +1,30 @@
+steps
+vi /etc/hosts 
+add the next line entry 
+18.202.0.44     training-registry.cainthus.io
+
+
+now we need to clone a repo 
+git clone git@github.com:yazan-c/docker-steps.git
+
+
+you go inside
+docker build -f Dockerfile -t name_image .
+docker run -p 8080:8080 testingflask
+
+
+Docker file 
+FROM ImageName
+
+
+
+
+
+
+
+
+
+
+
+
+
